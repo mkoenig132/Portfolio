@@ -31,8 +31,7 @@
 <figure class="ncr-kiosk">
 <div class="ncr-monitor">
 <div class="ncr-screen">
-<video controls muted playsinline preload="metadata">
-<source src="self-checkout-demo.mp4" type="video/mp4">Your browser does not support this video.</video>
+<img class="screen-artifact" src="Images_portfolio/Home.png" alt="Walmart self-checkout home screen">
 </div>
 </div>
 <figcaption>Self-checkout experience</figcaption>
@@ -66,6 +65,20 @@
 <li>Give shoppers confidence when they cannot name a produce item precisely.</li>
 <li>Make the payment path clear enough to move through without hesitation.</li>
 </ul>
+<div class="process-images" aria-label="Self-checkout design explorations">
+<img class="process-flow flow-artifact" src="Images_portfolio/Flow.png" alt="Self-checkout customer flow">
+<div class="process-image-grid">
+<button class="flow-thumbnail" type="button" data-flow-image="Images_portfolio/AccountConnection.png" data-flow-alt="Account connection design">
+<img src="Images_portfolio/AccountConnection.png" alt="Account connection design">
+</button>
+<button class="flow-thumbnail" type="button" data-flow-image="Images_portfolio/Picklist.png" data-flow-alt="Produce picklist design">
+<img src="Images_portfolio/Picklist.png" alt="Produce picklist design">
+</button>
+<button class="flow-thumbnail" type="button" data-flow-image="Images_portfolio/Payment.png" data-flow-alt="Payment design">
+<img src="Images_portfolio/Payment.png" alt="Payment design">
+</button>
+</div>
+</div>
 </section>
 <section class="split">
 <div>
@@ -82,10 +95,13 @@
 <li>Connecting accounts at the kiosk was too complex—there were too many steps involved.</li>
 </ol>
 </aside>
+<figure class="section-flow-diagram flow-artifact">
+<img src="Images_portfolio/AccountConnection.png" alt="Account connection flow">
+</figure>
 <div class="account-image-row">
-<img src="AccountIdentification/IMG_9483.jpeg" alt="Account identification exploration">
-<img src="AccountIdentification/IMG_9484%20(1).jpeg" alt="Account identification exploration">
-<img src="AccountIdentification/IMG_9503.jpeg" alt="Account identification exploration">
+<img class="screen-artifact" src="Images_portfolio/Home.png" alt="Self-checkout home screen">
+<img class="screen-artifact" src="Images_portfolio/Scan1.png" alt="Self-checkout scan flow">
+<img class="screen-artifact" src="Images_portfolio/Payment_Design.png" alt="Payment design flow">
 </div>
 <p class="walmart-disclaimer">Subject to IP ownership and terms of use. Legal restrictions on <a href="https://corporate.walmart.com/terms-of-use">Walmart.com</a>.</p>
 </section>
@@ -156,36 +172,32 @@
 </ul>
 </aside>
 </div>
+<figure class="ncr-kiosk flow-artifact section-flow-diagram">
+<div class="ncr-monitor">
+<div class="ncr-screen">
+<img src="Images_portfolio/Picklist.png" alt="Produce picklist design">
+</div>
+</div>
+</figure>
 <div class="picklist-video-grid">
-<figure class="ncr-kiosk">
+<figure class="ncr-kiosk screen-artifact">
 <div class="ncr-monitor">
 <div class="ncr-screen">
-<video controls muted playsinline preload="metadata">
-<source src="Picklist/picklist-1.mp4" type="video/mp4">Your browser does not support this video.</video>
+<img src="Images_portfolio/Home.png" alt="Self-checkout home screen">
 </div>
 </div>
 </figure>
-<figure class="ncr-kiosk">
+<figure class="ncr-kiosk screen-artifact">
 <div class="ncr-monitor">
 <div class="ncr-screen">
-<video controls muted playsinline preload="metadata">
-<source src="Picklist/picklist-2.mp4" type="video/mp4">Your browser does not support this video.</video>
+<img src="Images_portfolio/Produce_1.png" alt="First produce lookup design">
 </div>
 </div>
 </figure>
-<figure class="ncr-kiosk">
+<figure class="ncr-kiosk screen-artifact">
 <div class="ncr-monitor">
 <div class="ncr-screen">
-<video controls muted playsinline preload="metadata">
-<source src="Picklist/picklist-3.mp4" type="video/mp4">Your browser does not support this video.</video>
-</div>
-</div>
-</figure>
-<figure class="ncr-kiosk">
-<div class="ncr-monitor">
-<div class="ncr-screen">
-<video controls muted playsinline preload="metadata">
-<source src="Picklist/picklist-4.mp4" type="video/mp4">Your browser does not support this video.</video>
+<img src="Images_portfolio/Produce_2.png" alt="Second produce lookup design">
 </div>
 </div>
 </figure>
@@ -216,28 +228,18 @@
 </aside>
 </section>
 <section class="payment-videos">
+<figure class="ncr-kiosk flow-artifact section-flow-diagram">
+<div class="ncr-monitor">
+<div class="ncr-screen">
+<img src="Images_portfolio/Payment.png" alt="Payment flow">
+</div>
+</div>
+</figure>
 <div class="payment-video-grid">
-<figure class="ncr-kiosk">
+<figure class="ncr-kiosk screen-artifact">
 <div class="ncr-monitor">
 <div class="ncr-screen">
-<video controls muted playsinline preload="metadata">
-<source src="Payment/payment-1.mp4" type="video/mp4">Your browser does not support this video.</video>
-</div>
-</div>
-</figure>
-<figure class="ncr-kiosk">
-<div class="ncr-monitor">
-<div class="ncr-screen">
-<video controls muted playsinline preload="metadata">
-<source src="Payment/payment-2.mp4" type="video/mp4">Your browser does not support this video.</video>
-</div>
-</div>
-</figure>
-<figure class="ncr-kiosk">
-<div class="ncr-monitor">
-<div class="ncr-screen">
-<video controls muted playsinline preload="metadata">
-<source src="Payment/payment-3.mp4" type="video/mp4">Your browser does not support this video.</video>
+<img src="Images_portfolio/Payment_Design.png" alt="Payment design flow">
 </div>
 </div>
 </figure>
@@ -255,5 +257,36 @@
 </section>
 </article>
 </main>
+<div class="flow-modal" aria-hidden="true">
+<div class="flow-modal__dialog" role="dialog" aria-modal="true" aria-label="Flow preview">
+<button class="flow-modal__close" type="button" aria-label="Close image preview">×</button>
+<img class="flow-modal__image" src="" alt="">
+</div>
+</div>
+<script>
+addEventListener('DOMContentLoaded',()=>{
+  const modal=document.querySelector('.flow-modal');
+  const modalImage=modal.querySelector('.flow-modal__image');
+  const closeButton=modal.querySelector('.flow-modal__close');
+  let opener;
+  const close=()=>{
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden','true');
+    modalImage.src='';
+    opener?.focus();
+  };
+  document.querySelectorAll('.flow-thumbnail').forEach(button=>button.addEventListener('click',()=>{
+    opener=button;
+    modalImage.src=button.dataset.flowImage;
+    modalImage.alt=button.dataset.flowAlt;
+    modal.classList.add('is-open');
+    modal.setAttribute('aria-hidden','false');
+    closeButton.focus();
+  }));
+  closeButton.addEventListener('click',close);
+  modal.addEventListener('click',event=>{if(event.target===modal)close()});
+  addEventListener('keydown',event=>{if(event.key==='Escape'&&modal.classList.contains('is-open'))close()});
+});
+</script>
 </body>
 </html>
