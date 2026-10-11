@@ -391,7 +391,7 @@ dd{margin:3px 0}
 .screen-artifact .ncr-monitor,.payment-video-grid .screen-artifact .ncr-monitor{padding:0;border:3px solid #090b0c;border-radius:12px;overflow:hidden}
 
 .section-flow-diagram{width:100%;margin:36px 0 16px;padding:0}
-.section-flow-diagram>img{display:block;width:100%}
+.section-flow-diagram>img{display:block;width:100%;border-radius:16px!important}
 .split>.section-flow-diagram{grid-column:1/-1}
 .account-image-row{grid-template-columns:repeat(3,minmax(0,1fr))}
 .payment-video-grid{grid-template-columns:1fr}
@@ -399,3 +399,6 @@ dd{margin:3px 0}
 /* Center tab labels independently of their close controls. */
 .browser-tabs.site-tabs>*{position:relative;display:flex!important;align-items:center!important;justify-content:center!important;text-align:center!important}
 .browser-tabs.site-tabs b{position:absolute!important;top:50%;right:12px;float:none!important;margin:0!important;transform:translateY(-50%)}
+
+/* Consistent rounded treatment for borderless flow diagrams. */
+.process-images .process-flow,.process-image-grid img,.flow-artifact .ncr-screen img{border-radius:16px!important}
