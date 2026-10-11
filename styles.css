@@ -392,6 +392,7 @@ dd{margin:3px 0}
 
 .section-flow-diagram{width:100%;margin:36px 0 16px;padding:0}
 .section-flow-diagram>img{display:block;width:100%}
+.split>.section-flow-diagram{grid-column:1/-1}
 .account-image-row{grid-template-columns:repeat(3,minmax(0,1fr))}
 .payment-video-grid{grid-template-columns:1fr}
 
